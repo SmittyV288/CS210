@@ -7,13 +7,13 @@
   - I did well at creating a clock that would get the local system time to initialize the program. I also did well at making user adjusted time changes look seamless.
 
 - Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?
-  - I could likely make a one function instead of two that would handle the clock screen refreshing. I would also make a separate class file to handle the clock instead of having everything in one cpp file.
+  - I could likely make a single function instead of two that would handle the clock screen refreshing. I would also make a separate class file to handle the clock instead of having everything in one cpp file.
 
 - Which pieces of the code did you find most challenging to write, and how did you overcome this? What tools or resources are you adding to your support network?
-  - The most challenges pieces were the functions to handle clearing the screen and hiding the cursor. When I was building the clock, I used system("CLS") to refresh the screen, but I didn't like the blinking effect that came with it. I did a deep dive search for resources to solve this issue and found a way to not have the screen or cursor blink when the screen updated the clock. I'll be adding programming language documentation as well relevant YouTube videos to my support network.
+  - The most challengeing pieces were the functions to handle clearing the screen and hiding the cursor. When I was building the clock, I used system("CLS") to refresh the screen, but I didn't like the blinking effect that came with it. I did a deep dive search for resources to solve this issue and found a way to not have the screen or cursor blink when the screen updated the clock. I'll be adding programming language documentation as well relevant YouTube videos to my support network.
 
 - What skills from this project will be particularly transferable to other projects or course work?
   - The biggest skill that will be transferable is how to separate classes into separate files. This will allow my future programs to be more maintainable and adaptable.
   
 - How did you make this program maintainable, readable, and adaptable?
-  - I created a class for the program that makes it maintainable and adaptable. I also included white spaces, comments, as well as appropriately named variables and functions so it's readable. For the future I would create the class in a separate file or files to make it more maintainable and adaptable. 
+  - I created a class for the program that makes it maintainable and adaptable. I also included white spaces, comments, as well as appropriately named variables and functions so it's readable. For the future, I would create the class in a separate file or files to make it more maintainable and adaptable. 
